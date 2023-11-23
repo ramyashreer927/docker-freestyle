@@ -1,6 +1,8 @@
 FROM openjdk:11
 
-COPY target/spring-boot-docker-app.jar  /usr/app/
+MAINTAINER Ramya
+
+LABEL "Project"="Jenkinstask"
 
 WORKDIR /usr/app/
 
